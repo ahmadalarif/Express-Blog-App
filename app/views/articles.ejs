@@ -1,0 +1,19 @@
+<h1> Article Page </h1>
+<link rel="stylesheet" type="text/css" href="app/Styles/styles.css">
+
+<table class="table">
+    <tr>
+        <th> Title </th>
+        <th> Content </th>
+        <th> Author </th>
+    </tr>
+
+<% data.forEach(function(article, index){ %>
+    <tr>
+        <td><%= article.title %></td>
+        <td><%= article.content %></td>
+        <td><%= article.author %></td>
+    </tr>
+<% }) %>
+
+</table>
