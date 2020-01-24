@@ -11,7 +11,7 @@ const router = express.Router();
  * Description: Get the Root Route
  */
 router.get('/', function(req, res) {
-  res.json({message: 'Welcome to Blogy'});
+  res.json({message: 'Welcome to Blog Express App'});
 });
 
 
